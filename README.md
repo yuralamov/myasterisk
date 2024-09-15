@@ -9,10 +9,10 @@ tar xzvf asterisk-20-current.tar.gz
 
 Библиотека libpri позволяет Asterisk взаимодействовать с ISDN-соединениями. Вам это понадобится только в том случае,
 если вы собираетесь использовать DAHDI с оборудованием интерфейса ISDN (например, карты T1/E1/J1/BRI).
-wget https://downloads.asterisk.org/pub/telephony/libpri/libpri-1-current.tar.gz
-tar xzvf libpri-1-current.tar.gz
-wget https://downloads.asterisk.org/pub/telephony/libpri/libpri-1-current-patch.tar.gz
-tar xzvf libpri-1-current-patch.tar.gz
+  wget https://downloads.asterisk.org/pub/telephony/libpri/libpri-1-current.tar.gz
+  tar xzvf libpri-1-current.tar.gz
+  wget https://downloads.asterisk.org/pub/telephony/libpri/libpri-1-current-patch.tar.gz
+  tar xzvf libpri-1-current-patch.tar.gz
 
 Вам потребуется установить DAHDI только в том случае, если вы собираетесь использовать
 совместимые с DAHDI аналоговые или цифровые телефонные интерфейсные платы.
