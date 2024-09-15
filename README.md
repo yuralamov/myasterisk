@@ -32,7 +32,8 @@ tar xzvf v2.6.0.tar.gz
 
 cd asterisk-20.9.3/contrib/scripts  
 ./install_prereq install-unpackaged  
-cd ../.. 
+cd ../..  
+./configure  
 
 cd dahdi-linux-complete-3.4.0+3.4.0  
 make  
@@ -43,8 +44,12 @@ cd ../libpri-1.6.1
 make  
 make install  
 
-
-
 cd ..  
-./configure --with-pjproject-bundled
+./configure --with-pjproject-bundled  
+
+make menuselect  
+
+make  
+
+make install  
 
