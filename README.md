@@ -1,5 +1,5 @@
 # myasterisk
-Пробуем собрать полнофункциональную станцию
+*** Пробуем собрать полнофункциональную станцию ***
 ubuntu 24.04.1 server
 
 https://docs.asterisk.org/Getting-Started/Installing-Asterisk/Installing-Asterisk-From-Source/What-to-Download/
