@@ -25,3 +25,6 @@ tar xzvf dahdi-linux-complete-current.tar.gz
 
 
 git clone https://github.com/cisco/libsrtp.git  
+или  
+wget https://github.com/cisco/libsrtp/archive/refs/tags/v2.6.0.tar.gz  
+tar xzvf v2.6.0.tar.gz  
