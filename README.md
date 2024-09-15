@@ -22,3 +22,6 @@ wget https://downloads.asterisk.org/pub/telephony/dahdi-tools/dahdi-tools-curren
 tar xzvf dahdi-tools-current.tar.gz  
 wget https://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/dahdi-linux-complete-current.tar.gz  
 tar xzvf dahdi-linux-complete-current.tar.gz  
+
+
+git clone https://github.com/cisco/libsrtp.git  
