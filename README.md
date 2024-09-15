@@ -23,8 +23,28 @@ tar xzvf dahdi-tools-current.tar.gz
 wget https://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/dahdi-linux-complete-current.tar.gz  
 tar xzvf dahdi-linux-complete-current.tar.gz  
 
+wget https://github.com/pjsip/pjproject/archive/refs/tags/2.14.1.tar.gz  
 
 git clone https://github.com/cisco/libsrtp.git  
 или  
 wget https://github.com/cisco/libsrtp/archive/refs/tags/v2.6.0.tar.gz  
 tar xzvf v2.6.0.tar.gz  
+
+cd asterisk-20.9.3/contrib/scripts  
+./install_prereq install-unpackaged  
+cd ../.. 
+
+cd dahdi-linux-complete-3.4.0+3.4.0  
+make  
+make install  
+make install-config  
+
+cd ../libpri-1.6.1  
+make  
+make install  
+
+
+
+cd ..  
+./configure --with-pjproject-bundled
+
