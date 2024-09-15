@@ -4,7 +4,7 @@ ubuntu 24.04.1 server
 
 https://docs.asterisk.org/Getting-Started/Installing-Asterisk/Installing-Asterisk-From-Source/What-to-Download/
 
-wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz
+wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz  
 tar xzvf asterisk-20-current.tar.gz
 
 Библиотека libpri позволяет Asterisk взаимодействовать с ISDN-соединениями. Вам это понадобится только в том случае,
